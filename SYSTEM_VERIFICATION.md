@@ -39,6 +39,7 @@
 - ✅ **server.js** - Express server with integrated Socket.io.
 - ✅ **Database Migration** - All records successfully moved to **Course** and **Roll Number** schema.
 - ✅ **Model Logic** - Removed `devices` collection, implemented in-memory pooling for ESP32 scans.
+- ✅ **Email Service** - Successfully migrated from Nodemailer to **Brevo API**.
 - ✅ **Authentication** - Secure JWT with role-based dashboard protection.
 
 #### Routes:

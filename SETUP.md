@@ -13,6 +13,7 @@ Configure `.env` with:
 - `JWT_SECRET`
 - `NODE_ENV=development`
 - `FRONTEND_URL=http://localhost:3000`
+- **Email (Brevo API)**: `BREVO_API_KEY`, `EMAIL_FROM`
 
 ### 2. Frontend Configuration
 ```bash

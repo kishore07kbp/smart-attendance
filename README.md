@@ -25,7 +25,8 @@ A next-generation automated attendance tracking system leveraging **Face Recogni
 
 ### Backend
 - **Node.js & Express**: High-performance API architecture.
-- **MongoDB**: Flexible document storage for students, courses, and attendance logs.
+- **MongoDB**: Flexible document database.
+- **Brevo API**: reliable transactional emails for OTP and reports.
 - **Socket.io**: Real-time bidirectional communication.
 - **JWT**: Secure, stateless authentication.
 
@@ -53,7 +54,7 @@ attendance project/
 ```bash
 cd backend
 npm install
-cp .env.example .env  # Configure your PORT, MONGODB_URI, and JWT_SECRET
+cp .env.example .env  # Configure your PORT, MONGODB_URI, JWT_SECRET, and BREVO_API_KEY
 npm run dev
 ```
 
